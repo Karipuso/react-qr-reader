@@ -41,6 +41,7 @@ export const QrReader: React.FC<QrReaderProps> = ({
             transform: constraints?.facingMode === 'user' && 'scaleX(-1)',
           }}
           playsInline
+          webkit-playsinline
         />
       </div>
     </section>
