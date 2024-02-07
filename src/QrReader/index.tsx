@@ -40,6 +40,7 @@ export const QrReader: React.FC<QrReaderProps> = ({
             ...videoStyle,
             transform: constraints?.facingMode === 'user' && 'scaleX(-1)',
           }}
+          playsInline
         />
       </div>
     </section>
