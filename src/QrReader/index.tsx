@@ -42,6 +42,7 @@ export const QrReader: React.FC<QrReaderProps> = ({
           }}
           playsInline
           webkit-playsinline
+          autoPlay
         />
       </div>
     </section>
